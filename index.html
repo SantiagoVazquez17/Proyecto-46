@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+   
+
+ <!-- El núcleo JS SDK de Firebase siempre es requerido y debe ser enlistado primero -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!-- TODO: Agregar SDKs para los productos Firebase que quieras usar
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Configuración de Firebase de tu aplicación web
+  const firebaseConfig = {
+  apiKey: "AIzaSyDUnPGB52etQ8WLVUo8FSSKdAhbD82ZLQw",
+  authDomain: "proyecto-46-f250a.firebaseapp.com",
+  databaseURL: "https://proyecto-46-f250a-default-rtdb.firebaseio.com",
+  projectId: "proyecto-46-f250a",
+  storageBucket: "proyecto-46-f250a.appspot.com",
+  messagingSenderId: "210527569506",
+  appId: "1:210527569506:web:04e41d4e26fc21eea3333b"
+};
+
+  // Inicializar Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  
+  
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+</body></html>
